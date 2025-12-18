@@ -68,13 +68,13 @@ const Counter = () => {
           className="flex-1 p-2 rounded-xl bg-black/40 
             text-gray-200 outline-none 
             focus:ring-2 focus:ring-indigo-500
-            backdrop-blur-md"
+            backdrop-blur-md max-w-full"
         />
 
         <button
           onClick={setCounterFromInput}
           disabled={inputValue === ""}
-          className="px-4 rounded-xl bg-indigo-600/80 
+          className="px-3 rounded-xl bg-indigo-600/80 
             text-white font-semibold
             hover:bg-indigo-600
             transition disabled:opacity-40"
